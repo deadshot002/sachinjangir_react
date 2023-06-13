@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 export const Nav = () => {
-    const [show, setShow] = useState(true)
+    const [show, setShow] = useState(false)
     return (
         <>
             <button onClick={() => setShow(!show)} className='hamburger'>
