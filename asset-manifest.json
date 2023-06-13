@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sachinjangir_react/static/css/main.e2d48fbe.css",
+    "main.js": "/sachinjangir_react/static/js/main.23a0237c.js",
+    "static/js/787.7b0a00c1.chunk.js": "/sachinjangir_react/static/js/787.7b0a00c1.chunk.js",
+    "index.html": "/sachinjangir_react/index.html",
+    "main.e2d48fbe.css.map": "/sachinjangir_react/static/css/main.e2d48fbe.css.map",
+    "main.23a0237c.js.map": "/sachinjangir_react/static/js/main.23a0237c.js.map",
+    "787.7b0a00c1.chunk.js.map": "/sachinjangir_react/static/js/787.7b0a00c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2d48fbe.css",
+    "static/js/main.23a0237c.js"
+  ]
+}
