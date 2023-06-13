@@ -1,0 +1,268 @@
+@media (max-width:773px) {
+
+    /* .label{
+      display:none;
+    } */
+    .nav1{
+        margin-top: 80px;
+    }
+    .imp {
+        display: flex;
+    }
+
+    .skillicon img {
+        width: 50px;
+    }
+
+    .impimg {
+        height: 200px;
+        display: block;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skillicon {
+        position: absolute;
+        width: auto;
+        height: auto;
+    }
+
+    .skillicon1 {
+        left: 20%;
+        transform: translate(-50%, -50%);
+        transform: rotate(7deg) translate(-35%, -25%);
+        animation: iconp1 1s ease infinite alternate;
+    }
+
+    @keyframes iconp1 {
+        from {
+            top: 60px;
+        }
+
+        to {
+            top: 65px;
+        }
+    }
+
+    .skillicon2 {
+        right: 30%;
+        transform: translate(-30%, -50%);
+        transform: rotate(5deg) translate(-35%, -25%);
+        animation: iconp2 1s ease infinite alternate;
+    }
+
+    @keyframes iconp2 {
+        from {
+            top: 30px;
+        }
+
+        to {
+            top: 35px;
+        }
+    }
+
+    .skillicon3 {
+        right: 5%;
+        top: 80px;
+        transform: translate(-50%, -50%);
+        transform: rotate(2deg) translate(-35%, -25%);
+        animation: iconp3 1s ease infinite alternate;
+    }
+
+    @keyframes iconp3 {
+        from {
+            top: 85px;
+        }
+
+        to {
+            top: 80px;
+        }
+    }
+
+    .skillicon4 {
+        left: 10%;
+        top: 150px;
+        transform: translate(-50%, -50%);
+        transform: rotate(10deg) translate(-35%, -25%);
+        animation: iconp4 1s ease infinite alternate;
+    }
+
+    @keyframes iconp4 {
+        from {
+            left: 10%;
+        }
+
+        to {
+            left: 12%;
+        }
+    }
+
+    .skillicon5 {
+        right: 2%;
+        transform: translate(-50%, -50%);
+        transform: rotate(4deg) translate(-35%, -25%);
+        animation: iconp5 1s ease infinite alternate;
+    }
+
+    @keyframes iconp5 {
+        from {
+            top: 185px;
+        }
+
+        to {
+            top: 180px;
+        }
+    }
+
+    .skillicon6 {
+        left: 40%;
+        transform: translate(-50%, -50%);
+        transform: rotate(20deg) translate(-35%, -25%);
+        animation: iconp6 1s ease infinite alternate;
+    }
+
+    @keyframes iconp6 {
+        from {
+            top: 255px;
+        }
+
+        to {
+            top: 250px;
+        }
+    }
+    .hamb{
+        width: 20px;
+    }
+
+    .nav1 {
+        width: 280px;
+        height: 180px;
+    }
+    
+    .nav2 {
+        padding-top: 20px;
+        font-size: 20px;
+
+        position: absolute;
+        /* left: -10px; */
+    }
+
+    .nav2 b {
+        font-size: 40px;
+    }
+
+    .leftfix {
+        top: 300px;
+    }
+
+    .secbox {
+        width: 300px;
+    }
+
+    .map {
+        width: 300px;
+        height: 400px;
+    }
+
+    .card {
+        padding: 0px;
+    }
+
+    .label {
+        background-color: #36454F;
+        font-size: 20px;
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        /* position: absolute; */
+        margin-top: 0px;
+        width: auto;
+        height: auto;
+    }
+
+    .label ul {
+        height: auto;
+        padding: 0px;
+        width: 150px;
+        margin: 0px;
+        display: flex;
+        margin-top: 5px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .label ul li:hover {
+        font-size: 22px;
+        border: 2px solid #17C3B2;
+    }
+
+    .label ul li:active {
+        font-size: 22px;
+        border: 2px solid #17C3B2;
+    }
+
+    .label ul li {
+        list-style: none;
+        background-color: #051622;
+        border-radius: 4px;
+        margin: 0px;
+        margin-bottom: 5px;
+        width: 95%;
+        text-align: center;
+    }
+
+    .label ul li a {
+        text-decoration: none;
+        color: #c9c9c9;
+        font-family: 'Mukta', sans-serif;
+    }
+
+    .label ul li a:hover {
+        color: #17C3B2;
+    }
+
+    .mainall {
+        margin-left: 0px;
+    }
+
+    .hamburger {
+        margin: 10px;
+        background-color: #36454F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: #051622;
+
+    }
+    .hamburger img{
+        top: 10px;
+    }
+
+
+    .hamburger .close {
+        height: 25px;
+        margin-left:10px;
+    }
+    /* margin-top: 10px; */
+    
+    .hamburger img {
+        width: 23px;
+    }
+
+    .labelGo {
+        transform: translate(-210px, 0px);
+        position: absolute;
+    }
+
+    .hamburgerOut {
+        position: fixed;
+        transform: translate(210px, -70px);
+        border: 2px solid red;
+        z-index: 1;
+        /* position: static; */
+    }
+}

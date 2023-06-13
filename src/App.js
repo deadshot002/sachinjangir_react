@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Nav } from './Nav';
+import { Head } from './Head';
+import { Section1 } from './Section1';
+import { Section2 } from './Section2';
+import { Section3 } from './Section3';
+import { Section4 } from './Section4';
+import { Section5 } from './Section5';
+import { Section6 } from './Section6';
+import { Rfix } from './Rfix';
+import './all.css';
+import './ph773.css';
+import './ph450.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav />
+      <main>
+      <Head />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6 />
+      <Rfix />
+      </main>
+    </>
   );
 }
 

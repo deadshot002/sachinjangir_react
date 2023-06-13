@@ -1,0 +1,134 @@
+@media (max-width:450px) {
+  .label{
+    top: 0px;
+  }
+    .imp{
+        display: block;
+    }
+    .nav1{
+      margin-top: 100px;
+      width: 200px;
+      height: 110px;
+    }
+    .resume{
+      /* position: relative; */
+      font-size: 20px;
+      left: 0px;
+      top: 0px;
+      display: block;
+      position: relative;
+    }
+    .nav2{
+      padding: 10px;
+      font-size: 15px;
+    }
+    .nav2 b{
+      font-size: 20px;
+    }
+    .impimg{
+      display: block;
+      height: 100px;
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .skillicon{
+      position: absolute;
+      width: auto;
+      height: auto;
+    }
+    .skillicon1{
+      left: 20%;
+      transform: translate(-50%, -50%);
+      transform: rotate(7deg) translate(-35%, -25%);
+      animation: iconp1 1s ease infinite alternate;
+    }
+    @keyframes iconp1 {
+      from {
+        top: 60px;
+      } 
+      to {
+        top: 65px;
+      }
+    }
+    .skillicon2{
+      right: 30%;
+      transform: translate(-30%, -50%);
+      transform: rotate(5deg) translate(-35%, -25%);
+      animation: iconp2 1s ease infinite alternate;
+    }
+    @keyframes iconp2 {
+      from {
+        top: 30px;
+      } 
+      to {
+        top: 35px;
+      }
+    }
+    .skillicon3{
+      right:5% ;
+      top: 80px;
+      transform: translate(-50%, -50%);
+      transform: rotate(2deg) translate(-35%, -25%);
+      animation: iconp3 1s ease infinite alternate;
+    }
+    @keyframes iconp3 {
+      from {
+        top: 85px;
+      } 
+      to {
+        top: 80px;
+      }
+    }
+    .skillicon4{
+      left: 10%;
+      top: 150px;
+      transform: translate(-50%, -50%);
+      transform: rotate(10deg) translate(-35%, -25%);
+      animation: iconp4 1s ease infinite alternate;
+    }
+    @keyframes iconp4 {
+      from {
+        left: 10%;
+      } 
+      to {
+        left: 12%;
+      }
+    }
+    .skillicon5{
+      right: 2%;
+      transform: translate(-50%, -50%);
+      transform: rotate(4deg) translate(-35%, -25%);
+      animation: iconp5 1s ease infinite alternate;
+    }
+    @keyframes iconp5 {
+      from {
+        top: 185px;
+      } 
+      to {
+        top: 180px;
+      }
+    }
+    .skillicon6{
+      left: 40%;
+      top: 250px;
+      transform: translate(-50%, -50%);
+      transform: rotate(20deg) translate(-35%, -25%);
+      animation: iconp6 1s ease infinite alternate;
+    }
+    @keyframes iconp6 {
+      from {
+        top: 255px;
+      } 
+      to {
+        top: 250px;
+      }
+    }
+    .skillicon img{
+      width: 40px;
+    }
+    .container .card{
+      min-width: 280px;
+      margin-left: 20px;
+    }
+  }
