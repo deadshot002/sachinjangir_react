@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sachinjangir_react/static/css/main.e2d48fbe.css",
-    "main.js": "/sachinjangir_react/static/js/main.86a08a90.js",
+    "main.css": "/sachinjangir_react/static/css/main.4f2be7a3.css",
+    "main.js": "/sachinjangir_react/static/js/main.52d4e0e0.js",
     "static/js/787.7b0a00c1.chunk.js": "/sachinjangir_react/static/js/787.7b0a00c1.chunk.js",
     "index.html": "/sachinjangir_react/index.html",
-    "main.e2d48fbe.css.map": "/sachinjangir_react/static/css/main.e2d48fbe.css.map",
-    "main.86a08a90.js.map": "/sachinjangir_react/static/js/main.86a08a90.js.map",
+    "main.4f2be7a3.css.map": "/sachinjangir_react/static/css/main.4f2be7a3.css.map",
+    "main.52d4e0e0.js.map": "/sachinjangir_react/static/js/main.52d4e0e0.js.map",
     "787.7b0a00c1.chunk.js.map": "/sachinjangir_react/static/js/787.7b0a00c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2d48fbe.css",
-    "static/js/main.86a08a90.js"
+    "static/css/main.4f2be7a3.css",
+    "static/js/main.52d4e0e0.js"
   ]
 }
