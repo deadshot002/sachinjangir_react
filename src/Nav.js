@@ -1,6 +1,17 @@
 import React, { useState } from 'react'
+import { useRef } from 'react';
 export const Nav = () => {
-    const [show, setShow] = useState(false)
+    let k=false
+    const windowSize = useRef([window.innerWidth, window.innerHeight]);
+    let a=windowSize.current[0];
+    // let b=windowSize.current[1];
+    console.log(a);
+    // console.log(b);
+    if(a>768){
+        k=true;
+    }
+    console.log(k);
+    const [show, setShow] = useState(k)
     return (
         <>
             <button onClick={() => setShow(!show)} className='hamburger'>
