@@ -1,27 +1,29 @@
-import React from 'react'
+
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { props } from 'react';
+import PropTypes from 'prop-types'
 
-
-export const Section6 = () => {
+const Form = props => {
+    const a=process.env.REACT_APP_IED_APP;
+    const b=process.env.REACT_APP_TEM_APP;
+    const c=process.env.REACT_APP_PKEY_APP;
+    console.log(c);
     const form = useRef();
-
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm(${this.props.id}, 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm({a},{b}, form.current,{c})
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
     };
-    return (
-        <section className="section6">
+  return (
+    <section className="section6">
             <h1 className="sech"><b>06</b> Contact</h1>
             <div className="boxform">
-                <form className="form">
+            <form ref={form} onSubmit={sendEmail}>
                     <span className="input-span">
                         <label className="fb" htmlFor="text">name</label>
                         <input id="email" name="user_name" type="text" /></span>
@@ -37,5 +39,9 @@ export const Section6 = () => {
                 </form>
             </div>
         </section>
-    )
+  )
 }
+
+Form.propTypes = {}
+
+export default Form

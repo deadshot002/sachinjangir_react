@@ -1,4 +1,16 @@
 @media (max-width:450px) {
+  .top svg{
+    width: 40px;
+    border-radius: 100%;
+    color: white;
+  }
+  .top{
+    position: fixed;
+    background-color: transparent;
+    border:0px;
+    left: 45%;
+    bottom: 0;
+  }
   .label{
     top: 0px;
   }

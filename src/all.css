@@ -63,13 +63,13 @@ body {
     text-align: center;
   }
 
-  .label ul li a {
+  .label ul li{
     text-decoration: none;
     color: #c9c9c9;
     font-family: 'Mukta', sans-serif;
   }
 
-  .label ul li a:hover {
+  .label ul li:hover {
     color: #17C3B2;
   }
 
